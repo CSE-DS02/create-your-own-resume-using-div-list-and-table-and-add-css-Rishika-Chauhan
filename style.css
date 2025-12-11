@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#resume-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 850px; 
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    color: #1a4d93; 
+    margin-bottom: 5px;
+    font-size: 2.2em;
+}
+
+#header .title {
+    font-style: italic;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #1a4d93;
+    border-bottom: 3px solid #e0e0e0; 
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+.skills-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.95em;
+}
+
+.skills-list li {
+    background-color: #f0f8ff;
+    border: 1px solid #cceeff;
+    padding: 5px 12px;
+    margin: 0 10px 10px 0;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; 
+}
+
+thead {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; 
+    vertical-align: top;
+    font-size: 0.95em;
+}
+
+.table-date {
+    width: 15%; 
+}
+
+.table-role {
+    width: 30%; 
+}
+
+.table-description {
+    width: 55%; 
+}
+
+.table-description ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.table-description ul li {
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ccc, rgba(0, 0, 0, 0));
+    margin: 20px 0;
+}
